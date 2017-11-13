@@ -1,6 +1,6 @@
 {
   "name": "redux-ize",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An implementation of the Redux Action Creator Creator pattern",
   "main": "./distribution/index.js",
   "scripts": {
