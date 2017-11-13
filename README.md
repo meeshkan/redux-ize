@@ -119,7 +119,4 @@ Happy hacking!
 * [React Redux](https://hackernoon.com/tagged/react-redux?source=post)
 * [Middleware](https://hackernoon.com/tagged/middleware?source=post)
 
-### [Mike Solomon](https://hackernoon.com/@meeshkan)
-
-Mike is the C.E.O. of Meeshkan Machine Learning. When he’s not teaching machines
-to learn or learning from them, he’s the artistic director of the Ensemble 101.
+### [Meeshkan](https://hackernoon.com/@meeshkan)
