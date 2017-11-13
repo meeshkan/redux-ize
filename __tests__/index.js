@@ -22,3 +22,20 @@ test("action creator creator works", () => {
     }
   });
 });
+
+test("action creator can use action in meta", () => {
+  const actionCreator = (b) => ({type:"TEST", payload: b});
+  const actionCreatorCreator0 = ize(0)((a, {payload})=>({b:a, z: payload}))("q");
+  const ized = Ize(
+    actionCreator,
+    actionCreatorCreator0
+  );
+  expect(ized(432)).toEqual({
+    type: "TEST",
+    payload: 432,
+    meta: {
+      b: "q",
+      z: 432
+    }
+  });
+});
