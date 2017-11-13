@@ -1,3 +1,5 @@
+https://travis-ci.org/Meeshkan/redux-ize.svg?branch=master
+
 # redux-ize
 
 In redux apps, we have actions, we have action creators, but at
