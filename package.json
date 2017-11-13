@@ -1,0 +1,39 @@
+{
+  "name": "redux-ize",
+  "version": "0.0.0",
+  "description": "An implementation of the Redux Action Creator Creator pattern",
+  "main": "./distribution/index.js",
+  "scripts": {
+    "build": "babel source -d distribution",
+    "test": "npm run build && jest",
+    "prepublish": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meeshkan/redux-ize.git"
+  },
+  "keywords": [
+    "redux"
+  ],
+  "author": "Mike Solomon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meeshkan/redux-ize/issues"
+  },
+  "homepage": "https://github.com/meeshkan/redux-ize#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.59.0",
+    "jest": "^21.2.1",
+    "regenerator-runtime": "^0.11.0"
+  },
+  "jest": {},
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
