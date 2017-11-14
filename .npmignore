@@ -1,1 +1,4 @@
 source
+.babelrc
+.travis.yml
+.flowconfig
