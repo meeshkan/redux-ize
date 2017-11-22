@@ -1,6 +1,6 @@
 {
   "name": "redux-ize",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "An implementation of the Redux Action Creator Creator pattern",
   "main": "./distribution/index.js",
   "scripts": {
@@ -33,7 +33,5 @@
   },
   "jest": {},
   "dependencies": {
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-es2015": "^6.24.1"
   }
 }
