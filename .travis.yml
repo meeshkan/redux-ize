@@ -1,11 +1,3 @@
 language: node_js
 node_js:
   - 8.9.1
-deploy:
-  provider: npm
-  email: mike@meeshkan.com
-  api_key:
-    secure: UTYi8M0PtqExdiJJv9StA4A5am2z14hwJPyiXLa4Ynt4W7H4c1t9XTmDt+PSoMSYwEY5G3oj3wXjEV9kf5uwnD5WV/sE/w3tpgGNPYc3gKWbq2rgNjbwHmEKolxDIrFR4I9GsO16C7UVGrnCGRVMVICZNKQCXiNtVFIAF0ZoO2OeNhp774mJnfabCejAfQ04RDXBUjIBltOeVqv1+wWtlj/00puSg+RftnBfOfJagSUJGwBlfAqMecT1qJX8zNwFWUSPCX8ULVGbb1EJQeGKEfB8pYtO08UUdThO1tFQUHPwPyOGUR6EXzH0QH2Bx9+AS+JPzXUE4LWNnKxJxlytxWAeA2LpWfHiCcrWC/2gsDwCfH0L70+hbUksJbD8TIseFUFA9tapSBQv8KZqi9pdN4aAixNTpAsBwkyj+2vwTUlIZvwv/RvtdzY+yrS+Ho4t/8foJqJg/kaRYABL+gSM3/Mf6ItZTeIzEZ8l2rPMSWriNU6er9ucKl1CAMoab65VDPxU+8P3Ye9WGgqsCPaOKO1OE+M5SsT8KTXEVgZD7roaM63laikm3Mduppt7Wfngai5fHgOz2a7v13h39Gf4WM8kE0Rio88IbtrrmoCqFBkslejTN9O7CPPe8P0lN6iSy9BTVUR1KQmthii2Tc6b2aq7zVTKkPxU5tWf7cn47zo=
-  on:
-    tags: true
-    repo: Meeshkan/redux-ize
